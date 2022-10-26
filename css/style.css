@@ -1,0 +1,49 @@
+h1{
+    position: relative;
+    left: 0;
+    animation: h1-animation 2s;
+}
+
+@keyframes h1-animation{
+    0%{
+        left: -100vw;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+div.h2-box{
+    position: relative;
+    right: 0;
+    animation: h2-box-animation 4s 0s 1;
+
+}
+
+@keyframes h2-box-animation{
+    0%{
+        right: -100vw;
+    }
+    50%{
+        right: -100vw;
+    }
+    100%{
+        right: 0;
+    }
+}
+
+h2{
+    animation: h2-bounce 2s 4.3s infinite;
+}
+
+@keyframes h2-bounce{
+    0%,
+    100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+}
+
+
